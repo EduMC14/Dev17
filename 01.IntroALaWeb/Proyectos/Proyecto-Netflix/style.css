@@ -1,0 +1,150 @@
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(115deg,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)), url(/01.IntroALaWeb/Proyectos/Proyecto-Netflix/src/fondo-netflix.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica, Arial;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+.box-logo{
+    margin-left: 2em;
+}
+
+.img-netflix{
+    width: 12%;
+    height: auto;
+}
+
+.box-login{
+    width: 35%;
+    height: auto;
+    background-color: rgba(0,0,0, 0.8);
+    color: #b3b3b3;
+    margin:auto;
+    border-radius: 5px;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 0px auto 30px;
+    color: #fff;
+}
+.email{
+    width: 60%;
+    height: 40px;
+    padding-left: 10px;
+    margin: 0px auto 15px auto;
+    box-sizing: border-box;
+}
+.contraseña{
+    width: 60%;
+    height: 40px;
+    margin: 0px auto 40px ;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.email, .contraseña, .btn-iniciar{
+    display: block;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-iniciar{
+    width: 60%;
+    height: 40px;
+    background-color:#e50914; ;
+    margin: 0px auto 5px;
+    color: #fff;
+    font-size: 1rem;
+    
+}
+
+#check-recuerdame{
+    margin-left: 20%;
+}
+
+.necesitas{
+    margin-left: 13%;
+}
+h4{
+    display: inline-block;
+    margin-top: 10%;
+}
+.pri-net{
+    margin-left: 20%; 
+}
+
+.span{
+    width: 60%;
+    margin: auto;
+    
+}
+footer{
+    background-color: rgba(0,0,0, 0.6);
+    color: #b3b3b3;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+
+ul{
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    width: 100%;
+} 
+
+.list1 li{
+    padding-right: 7%;
+}
+.list2 li{
+    padding-right: 4.5%;
+    margin-top: 1rem;
+}
+.box-footer{
+    width: 70%;
+    margin: auto;
+    padding-top: 1rem;
+    box-sizing: border-box;
+}
+
+.box-list{
+    display: flex;
+    width: 100%;
+}
+
+#btn-idioma{
+    margin-top: 1rem ;
+    margin-bottom: 2rem;
+    width: 10%;
+    height: 30px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #333
+}
+
+

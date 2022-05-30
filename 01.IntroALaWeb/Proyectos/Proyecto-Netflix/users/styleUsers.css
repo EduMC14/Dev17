@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    
+}
+.logo-net{
+    width: 7%;
+    height: auto;
+    margin-left: 3rem;
+}
+h1{
+    margin-left: 28.5%;
+    margin-top: 5rem;
+    color: #fff;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-users{
+    width: 65vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.usuario{
+    width: 12vw;
+    height: 25vh;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.usuario:hover{
+    border: #fff solid 3px;
+}
+
+#usuario1{
+    background-image: url(https://occ-0-254-114.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABb_DHMVDo8hDAK3yCzp_kViqNAzRqtn4oFSvy8FppaaBvPEgXCYaVMOX7QyrOZvuznXMuC7CCX4H0-NmnBa5bxs4CCEluvvauk87.png?r=a41);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#usuario2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://occ-0-254-114.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABT4cxkF1q0aSEVCvqYghhYlTJfAE1Oz78QZ2Zco0GN_c1kr_X8Q01ASn1bPFPCo1cy4XB5-hBHWzPhB3te4PXTohBW34bVKPZRAt.png?r=f71);
+}
+
+#usuario3{
+    background-image: url(https://occ-0-254-114.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABQeGHKNMmLwGKq16NvKP6XTkbyBE0_KaWc6JahZksi5Xp6gr44E-3ZwFQcQZHe2MHXsC3FSGxriP29b5UbNP8h-NcuhXvO6kIo9T.png?r=b97);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#usuario4{
+    background-image: url(https://occ-0-254-114.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABRQRwycMcSfW5LbDkwgs0OlmkuXUYeW_xIoVr9eP32Yx__wUG8rJOSiUjL3nJBI6XHf75I-Ajsm4N0PclHOCUWjrpYAcUC5ndc6P_axjckdhtxT9n1ZXuWv706pcZmBCE1k-FkQ3h7pL3PwfF00.png?r=318);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#usuario5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#usuario5:hover{
+    background-color: #fff;
+}
+
+svg{
+    width: 50%;
+    height: 50%;
+}
+.name{
+    text-align: center;
+    position: relative;
+    top: 110%;
+}
+span{
+    color: #808080;
+    font-size: 1.3rem;
+}
+span:hover{
+    color: #fff;
+}
+form{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.btn-final{
+    border-color: #808080  ;
+    color: #808080;
+    width: 13vw;
+    height: 6vh;
+    background-color: #141414;
+    font-size: 1rem;
+}
+.btn-final:hover{
+    border-color: #fff;
+    color: #fff;
+}

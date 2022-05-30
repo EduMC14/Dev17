@@ -1,0 +1,151 @@
+body{
+font-family: 'Roboto', sans-serif;
+margin:0;
+width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+     
+}
+.list-link {
+    list-style: none;
+    
+}
+
+.list-link a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block; 
+    padding-right: 10px ;  
+}
+
+.btn-icon{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    color:#5f6368;
+}
+
+.btn-icon:hover{
+    background-color:#5f6368;
+    opacity: 1;
+}
+
+
+.btn-acceder{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+
+.btn-acceder a{
+    text-decoration: none;
+    color: #fff;
+}
+main{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.search{
+    position: relative;
+    margin-top: 10px;
+    width: 450px;
+    margin: auto;
+}
+
+#site-search{
+    width: 100%;
+    height: 35px;
+    border-radius: 40px;
+    border: solid 1px;
+    padding-left: 40px;
+}
+
+#site-search:hover{
+border: none;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .botones-busqueda{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .btn-busqueda{
+      width: 150px;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      margin-left: 10px;
+  }
+
+  .btn-busqueda:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .btn-busqueda a{
+      text-decoration: none;
+      color: #000;
+  }
+  footer{
+      width: 100%;
+      bottom: 0px;
+      position: absolute;
+    
+  }
+
+.pais-origen{
+    padding: 2.5px 0px 2.5px 20px ;
+    color:#70757a;
+    background-color: #F8F9F9;
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.5px 20px 2.5px 20px ;
+    background-color: #F8F9F9;
+    color:#70757a ;
+}
+
+.links1 p{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.links2 p{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+
+
+ 
