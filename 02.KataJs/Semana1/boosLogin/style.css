@@ -1,0 +1,19 @@
+
+
+form{
+    max-width: 480px;
+    margin: auto;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+
+input[type="email"]{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+input[type="password"]{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
