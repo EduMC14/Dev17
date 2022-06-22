@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+
+.box-principal{
+    width: 50%;
+    background-color: bisque;
+    text-align: center;
+    margin: 8rem auto;
+}
