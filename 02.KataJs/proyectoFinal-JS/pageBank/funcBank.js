@@ -4,7 +4,8 @@ let btnDep = document.querySelector('#btn-dep');
 let btnRe = document.querySelector('#btn-re');
 let inRetirar = document.querySelector('#input-re')
 let inDepositar = document.querySelector('#input-re')
-saldo.value = 10;
+
+saldo.value = 100;
 
 
 function decrementarSaldo(evento){
@@ -14,10 +15,10 @@ function decrementarSaldo(evento){
 
 function incrementarSaldo(evento){
     console.log(evento)
-    saldo.value += inDepositar.value;
+    saldo.value = (inDepositar.value + saldo.value);
 }
 
 
-btnDep.addEventListener('click',incrementarSaldo);
+btnDep.addEventListener('click',incrementarSaldo());
 
-btnRe.addEventListener('click',decrementarSaldo);
+btnRe.addEventListener('click',decrementarSaldo());

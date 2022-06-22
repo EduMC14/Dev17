@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+
+#input{
+    width: 90%;
+    height: 15vh;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+#input::placeholder{
+    font-size: 1.5rem;
+}
+.container{
+    background-color: bisque;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 75px;
+    height: 50px;
+    font-size: 2rem;
+}
+
+#btnReset, #btnAddition, #btnSubstraction, #btnMultiplication, #btnDelete, #btnDivision{
+    width: 75px;
+    height: 50px;
+    font-size: 2rem;
+}
+
+#btnEqual{
+    width: 315px;
+    height: 50px;
+    font-size: 2rem;
+}
+
+
